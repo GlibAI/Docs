@@ -12,7 +12,7 @@
 1. Postgress [Setup Link](./INSTALL_POSTGRES.md)
 
 ## Setup based on Project
-1. RabbitMq
+1. RabbitMq [Setup Link](./SETUP_RABBITMQ.md)
 2. Redis
 3. Dbeaver
 4. Postman
