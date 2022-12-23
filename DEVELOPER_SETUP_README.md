@@ -9,7 +9,7 @@
 2. Visual Code
 
 ## Database
-1. Postgress
+1. Postgress [Setup Link](./INSTALL_POSTGRES.md)
 
 ## Setup based on Project
 1. RabbitMq
