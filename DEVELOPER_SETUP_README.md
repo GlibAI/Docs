@@ -21,5 +21,5 @@
 ### Need to install in your machine
 
 1. Git
-2. Pyenv
+2. Pyenv [Setup Link](./SETUP_PYENV.md)
 3. Poetry
