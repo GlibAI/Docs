@@ -24,9 +24,16 @@ psql -U {username} -h {host} -p {port} -d {dbname} < {dbname}.sql
 
 ## Storage Account Container (Azure) --> S3 (AWS)
 
---> Take a dump using from azure container, command mention below
+--> Take a media dump using from azure container, command mention below
 
 ```sh
 # install azure-cli
 az storage copy -s https://{account_name}.blob.core.windows.net/{container_name} -d ./{directory}/ --recursive
+```
+
+--> To upload media dump to S3 container, command mention below
+
+```sh
+# install awscli
+aws s3 cp {folder_name} s3://{container_name}/{folder_name} --recursive
 ```
