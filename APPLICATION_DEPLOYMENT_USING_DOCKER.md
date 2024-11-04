@@ -1,5 +1,5 @@
 # Application Deployment Using Docker
-1. **Docker Command for Build,Save,Load image**
+1. **Docker Command for Build with tag (re-tag),Save,Load image**
 2. **Create Docker Network**
 2. **Run Docker For Database**
 3. **Run Docker For Redis**
@@ -13,6 +13,7 @@
 ### Docker Command for Build,Save,Load image
 ```ssh
 docker build -t tage_name .
+docker image tag source_tage_name target_tage_name
 docker save tage_name > tage_name.tar
 docker load --input tage_name.tar
 ```
